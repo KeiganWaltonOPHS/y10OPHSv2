@@ -1,0 +1,7 @@
+colour = input("Enter your favourite colour"). lower()
+
+if colour == "red":
+  print("same")
+  
+else:
+  print(f"i dont like {colour}, {colour} is for morons")
