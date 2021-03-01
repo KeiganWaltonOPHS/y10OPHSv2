@@ -1,0 +1,4 @@
+number = int(input("Enter a number under 50"))
+
+for i in range(51 - number):
+    print(50 - i)
