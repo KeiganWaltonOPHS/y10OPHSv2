@@ -1,0 +1,15 @@
+names = []
+
+loop = True
+
+names.append(input("Enter a name >>>"))
+names.append(input("Enter a name >>>"))
+names.append(input("Enter a name >>>"))
+while loop == True:
+  name = input("enter another name or type no to stop")
+  if  name == "no":
+    loop = False
+  else:
+      names.append(name)
+      
+print ("the people you have invited are",names)
