@@ -1,0 +1,12 @@
+TvShows = ["The simpsons", "Family guy", "Superstore","Ackley bridge" ]
+
+print (TvShows[0])
+print (TvShows[1])
+print (TvShows[2])
+print (TvShows[3])
+
+NewShow = str(input("please enter a new show>>>"))
+Location = int(input("please enter the position of your new show 0,1,2 or 3>>>"))
+
+TvShows.insert(Location, NewShow)
+print(TvShows)
