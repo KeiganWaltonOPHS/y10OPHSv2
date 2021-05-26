@@ -11,8 +11,15 @@ while True:
     delete = input("Do you want to keep the last number?").lower()
     
     if delete == "n":
+          nums.remove(nums[-1])
+      break
+    
+    else:
+      break
+    
+    
+print(nums)
     
     
     
     
-    still need to edit
