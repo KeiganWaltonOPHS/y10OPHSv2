@@ -1,0 +1,26 @@
+print("League Registration")
+name = input("Please enter your first name: >>>")
+nickname = input("Enter your nickname: >>>")
+email = input("Please enter your email address: >>>")
+skill = input("Please enter your skill level - E for expert or C for casual: >>>")
+
+print ("Your first name is" , name)
+print ("Your nickname is" , nickname)
+print("Your email address is" , email)
+
+if skill == "E":
+  print("Skill level is Expert")
+elif skill == "C":
+  print("Skill level is Casual")
+
+  
+confirmation = input("Please confirm if your details are correct - Y/N")
+
+if confirmation == "Y":
+  print ("Many thanks")
+elif confirmation == "N":
+  print("please Redo")
+  
+  
+  
+  still in progress
