@@ -1,12 +1,4 @@
-Tv = ["Ackley bridge", "superstore", "kims convenience", "tellytubbies"]
+num = '123456789'
 
-for i in Tv:
-    print(i)
+print(f'3 is in index: {num.find("3")}\n8 is in index: {num.find("8")}')
 
-show = str(input("Enter another show "))
-pos = int(input("What position you want it? eg: 1,2,3... ")) - 1
-
-Tv.insert(pos, show)
-
-for i in Tv:
-    print(i)
